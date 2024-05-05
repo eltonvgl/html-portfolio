@@ -1,0 +1,46 @@
+
+html{
+        background-image: url("./assets/images/desk.jpg")
+    }
+
+
+.formatacao{
+        color:#000000;
+        font-size: 19px;
+}
+
+.sobre-fonte-format{
+        text-align: center;
+        font-size: 21px;
+}
+
+.contatoformat{
+        text-align: center;
+}
+
+.cinzel-principal{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  background-color: #B6C4B6;
+}
+
+
+.cinzel-principal1{
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 650;
+        font-style: normal;
+        background-color: #B6C4B6;
+        color: #000000;
+        font-size: 1.5rem;
+}
+
+h1[value="1"]{
+        text-align: center;
+}
+
+header{
+        text-align: center;
+}
