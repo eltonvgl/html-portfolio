@@ -1,29 +1,8 @@
 
+/* Global */
+
 html{
         background-image: url("./assets/images/desk.jpg")
-    }
-
-
-.formatacao{
-        color:#000000;
-        font-size: 19px;
-}
-
-.sobre-fonte-format{
-        text-align: center;
-        font-size: 21px;
-}
-
-.contatoformat{
-        text-align: center;
-}
-
-.cinzel-principal{
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: 650;
-  font-style: normal;
-  background-color: #B6C4B6;
 }
 
 
@@ -37,10 +16,70 @@ html{
         font-size: 1.5rem;
 }
 
+
+.cinzel-principal{
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 650;
+        font-style: normal;
+        background-color: #B6C4B6;
+}
+      
+
+a:link{text-decoration: none;}
+
+.formatacao{
+        color:#000000;
+        font-size: 19px;
+}
+
+/* Página Inicial */
+
+a[value="1"]{
+        border: 2px solid black;
+        border-right: 0px;
+        border-left: 0px;
+        word-spacing: 5px;
+}
+
+
 h1[value="1"]{
+        text-align: center;
+        border: 2px solid black;
+        border-right: 0px;
+        border-left: 0px;
+}
+
+nav{
+        text-align: center;
+    
+}
+
+/* Portfólio */
+
+h3{
+        text-align: center;
+        border: 2px solid black;
+        border-right: 0px;
+        border-left: 0px;
+}
+
+
+/* Contato */
+
+h1[id="contato"]{
+        border: 2px solid black;
+        border-right:0px;
+        border-left: 0px;
+}
+
+.contatoformat{
         text-align: center;
 }
 
-header{
+/* Sobre */
+
+.sobre-fonte-format{
         text-align: center;
+        font-size: 21px;
 }
