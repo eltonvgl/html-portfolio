@@ -2,7 +2,8 @@
 /* Global */
 
 html{
-        background-image: url("./assets/images/desk.jpg")
+        background-color: #EEF0E5;
+
 }
 
 
@@ -13,7 +14,9 @@ html{
         font-style: normal;
         background-color: #B6C4B6;
         color: #000000;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        padding: 7px;
+        margin: 2px
 }
 
 
@@ -35,6 +38,14 @@ a:link{text-decoration: none;}
 
 /* Página Inicial */
 
+.cinzel-principal2{
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 650;
+        font-style: italic;
+}
+      
+
 a[value="1"]{
         border: 2px solid black;
         border-right: 0px;
@@ -53,6 +64,62 @@ h1[value="1"]{
 nav{
         text-align: center;
     
+}
+
+div[id="pri"]{
+        height: 300px;
+        width: 450px;
+}
+
+div[id="seg"]{
+        height: 300px;
+        width: 450px;
+}
+
+div[id="ter"]{
+        height: 300px;
+        width: 450px;
+}
+
+
+#pri{
+        padding: 1px;
+        border: 2px solid black;
+        margin-left: 60px;
+        margin-top: 30px;
+}
+
+#seg{
+        padding: 1px;
+        border: 2px solid black;
+        margin-left: 560px;
+        margin-top: 30px;
+}
+
+#ter{
+        padding: 1px;
+        border: 2px solid black;
+        margin-left: 60px;
+        margin-top: 30px;
+}
+
+img{
+        height: 300px;
+        width: 450px;
+}
+
+#legendas{
+        margin-top: 70px;
+        margin-left: 60px;
+}
+
+#livros{
+        margin-left: 560px;
+}
+
+#experiencia{
+        margin-left: 60px;
+
 }
 
 /* Portfólio */
@@ -83,3 +150,4 @@ h1[id="contato"]{
         text-align: center;
         font-size: 21px;
 }
+
